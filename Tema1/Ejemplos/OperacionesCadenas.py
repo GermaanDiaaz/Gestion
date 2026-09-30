@@ -48,3 +48,12 @@ print(text.partition('+'))
 #Limpia la cadena de espacios en blanco
 hola2 = '\n \t Hola soy el Ger \t  \n'
 print(hola2.strip())
+
+
+name = 'Germán'
+age = 21
+ciudad = 'Motril'
+gustos = ['animales', 'piano', 'fútbol']
+dinero = 1.25
+
+print(f'Me llamo {name}, tengo {age} años, soy de {ciudad} y mis cosas favoritas son: {gustos}. Tengo {dinero}€ en el banco ')
