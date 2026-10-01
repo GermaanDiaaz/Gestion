@@ -56,4 +56,4 @@ ciudad = 'Motril'
 gustos = ['animales', 'piano', 'fútbol']
 dinero = 1.25
 
-print(f'Me llamo {name}, tengo {age} años, soy de {ciudad} y mis cosas favoritas son: {gustos}. Tengo {dinero}€ en el banco ')
+print(f'Me llamo {name}, tengo {age} años, soy de {ciudad} y mis cosas favoritas son: {gustos}. Tengo {dinero}€ en el banco.')

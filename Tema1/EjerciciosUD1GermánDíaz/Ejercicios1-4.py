@@ -25,7 +25,7 @@ num2 = input('Diga el otro número: ')
 if num1 > num2:
     print('El ',num1, 'es mayor que el ', num2)
 elif num2 > num1: 
-        print('El ',num2, 'es mayor que el ', num1)
+    print('El ',num2, 'es mayor que el ', num1)
 else:
     print('El ',num2, 'es igual que el ', num1)
 
