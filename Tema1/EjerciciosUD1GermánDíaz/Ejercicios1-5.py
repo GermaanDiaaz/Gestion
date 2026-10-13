@@ -54,3 +54,17 @@ else:
 
 
 """-----------------------------Ejercicio 7 ----------------------------- """
+num = 1
+while num <=100:
+    print(num)
+    num = num + 1
+
+
+"""-----------------------------Ejercicio 8 ----------------------------- """
+num = 1
+lim = 100
+for _ in range(num, lim+1):
+    print(num)
+    num = num + 1
+
+
