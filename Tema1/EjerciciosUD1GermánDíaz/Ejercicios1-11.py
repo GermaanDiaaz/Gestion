@@ -68,3 +68,23 @@ for _ in range(num, lim+1):
     num = num + 1
 
 
+"""-----------------------------Ejercicio 9 ----------------------------- """
+cadena = input("Introduzca un texto paran separar sus palabras:\n")
+
+print(cadena.split(' '))
+
+
+"""-----------------------------Ejercicio 11 ----------------------------- """
+tope = int(input("Introduzca un número tope:\n"))
+resultado = 0
+
+while resultado < tope:
+    num = int(input("Introduzca un número para alcanzar el tope: "))
+    resultado += num
+
+    if resultado == tope:
+        print("Felicidades, encontraste el tope.")
+    elif resultado > tope:
+        print("Vaya... Te pasaste del tope.") 
+    else:
+        print("Vas por", resultado, "aún no alcanzas el tope.")
