@@ -77,14 +77,27 @@ print(cadena.split(' '))
 """-----------------------------Ejercicio 11 ----------------------------- """
 tope = int(input("Introduzca un número tope:\n"))
 resultado = 0
+lista = ""
 
 while resultado < tope:
     num = int(input("Introduzca un número para alcanzar el tope: "))
     resultado += num
+    lista += " " + str(num)
 
     if resultado == tope:
         print("Felicidades, encontraste el tope.")
+        print(lista)
     elif resultado > tope:
-        print("Vaya... Te pasaste del tope.") 
+        print("Vaya... Te pasaste del tope.")
+        print(lista)
     else:
         print("Vas por", resultado, "aún no alcanzas el tope.")
+
+
+"""-----------------------------Ejercicio 13 ----------------------------- """
+num = int(input("Introduce un número para calcular su factorial:\n"))
+result = 1
+
+for i in range(1, num+1):
+    result *= i
+print(f"El número {num}! = {result}")

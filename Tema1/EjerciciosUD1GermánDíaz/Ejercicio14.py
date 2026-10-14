@@ -1,5 +1,14 @@
-num = input('Diga un número para pintar su triángulo de asteriscos: ')
-asteriscos = 0
+num = int(input('Diga un número para pintar su triángulo de asteriscos: '))
+
+for i in range(1, num+1):
+    print("*" * i)
+    
+for i in range(num-1, 0, -1):
+    print("*" * i)
+
+
+
+"""asteriscos = 0
 
 repes = int(num) * 2 
 
@@ -15,4 +24,4 @@ if int(num) >= 0:
             asteriscos = asteriscos + 1
             print('*' * asteriscos)
             repes = repes - 1
-   
+"""
