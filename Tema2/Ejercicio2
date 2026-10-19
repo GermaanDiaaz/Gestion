@@ -1,0 +1,24 @@
+#-----------------------Ejercicio2-------------------------
+print("Bienvenido al programa de aprendizaje con listas\n")
+
+largo = int(input("Diga la longuitud de la lista:\n"))
+lista = []
+
+for pos in range(0, largo):
+    lista.append(input(f"Inserte cadena {pos+1}:\n")) 
+
+print(f"La lista es: {lista}")
+
+op = 1
+
+while op != 0:
+    print("Pulse 1 para BUSCAR un elemento.")
+    print("Pulse 2 para INSERTAR un elemento al final.")
+    print("Pulse 3 para INSERTAR un elemento en una posición concreta.")
+    print("Pulse 4 para BORRAR el elemento de una posición.")
+    print("Pulse 5 para BORRAR elementos del inicio y del final.")
+    print("Pulse 0 para SALIR.")
+
+    match op:
+        case 1:
+            

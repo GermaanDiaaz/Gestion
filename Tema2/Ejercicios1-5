@@ -1,0 +1,15 @@
+#-----------------------Ejercicio1-------------------------
+lista = [1, -1, 10, -2, -58, 9, 48]
+
+print(f"La lista es: {lista}")
+
+for num in lista:
+    if num < 0:
+        lista[lista.index(num)] = 0
+
+print(f"La nueva lista es: {lista}")
+
+
+#-----------------------Ejercicio3-------------------------
+
+
